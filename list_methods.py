@@ -31,3 +31,7 @@ print(b[1:4])
             # SHORT method
 b.sort()
 print(b)
+
+           # POP method
+a.pop(1)            
+print(a)
