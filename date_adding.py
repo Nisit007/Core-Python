@@ -1,24 +1,3 @@
-# a = input('enter the date = ')
-# dd,mm,yy=a.split('/')
-# dd = int(dd)
-# mm = int(mm)
-# yy = int(yy)
-# if (0 <= dd <= 31) and  (1 <= mm <= 12) and (0<= len(str(yy))) <= 4:
-#     print('valid date')
-#     if (dd == 31) and mm == 1 or mm == 3 or mm == 5 or mm == 7 or mm == 8 or mm == 10 or mm == 12:
-#         dd = 1
-#         mm = mm + 1
-#     elif (dd == 30) and mm == 2 or mm == 4 or mm == 6 or mm == 9 or mm == 11:
-#         dd = 1
-#         mm = mm +1
-#     else:
-#         dd = dd + 1
-# else:
-#     print('invalid date')
-#
-# print(dd , mm , yy)
-
-
 a = int(input('Enter the date:- '))
 b = int(input('Enter the Month:-'))
 c = int(input('Enter he Year:-'))
